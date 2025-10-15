@@ -1,16 +1,43 @@
-# React + Vite
+# Smart Recipe Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based intelligent recipe recommendation app that suggests recipes based on available ingredients, dietary preferences, and cooking difficulty. It integrates smart filtering, ingredient matching, and optional image-based ingredient recognition for a modern, AI-assisted cooking experience.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Ingredient Input** – Enter available ingredients or upload images for automatic detection.
+- **Smart Matching** – Recipes are suggested based on available ingredients and missing ones.
+- **Filters** – Apply dietary restrictions, difficulty level, and maximum preparation time.
+- **Recipe Details** – View full recipes with nutritional info and scalable servings.
+- **Save & Storage** – Save your favorite recipes using browser local storage.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend:** React (Vite)
+- **Styling:** Tailwind CSS
+- **State Management:** React Hooks
+- **Utilities:** Local storage & custom matching algorithm
+- **Optional:** TensorFlow.js for ingredient image recognition
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+##  Installation and Setup
+
+--bash
+# 1. Clone the repository
+git clone https://github.com/<your-username>/smart-recipe-generator.git
+
+# 2. Move into the project directory
+cd SMART-RECIPE-GERNERATOR
+
+# 3. Install dependencies
+npm install
+
+# 4. Run the development server
+npm run dev
+
+## How It Works
+1.Ingredient Input: Users enter ingredients or upload an image. The image is analyzed (if enabled) to detect ingredient names.
+2.Matching Logic:The app compares available ingredients to recipes in recipes.json using a similarity score.
+3.Suggestions:Recipes with the highest match percentage are displayed with details.
+4.Filters & Customization:Users can filter by dietary restrictions, difficulty, or preparation time.
+5.User Feedback:Favorites and ratings are saved in local storage (utils/storage.js).
