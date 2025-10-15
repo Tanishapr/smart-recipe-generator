@@ -1,0 +1,157 @@
+[
+  {
+    "id": 1,
+    "name": "Spaghetti Aglio e Olio",
+    "ingredients": ["spaghetti", "garlic", "olive oil", "red chili flakes", "parsley", "salt"],
+    "steps": [
+      "Boil spaghetti until al dente.",
+      "Heat olive oil and sauté garlic.",
+      "Add red chili flakes and cooked spaghetti.",
+      "Toss with parsley and serve."
+    ],
+    "difficulty": "Easy",
+    "time": 20,
+    "diet": ["vegetarian"],
+    "veg_nonveg": "Veg",
+    "nutrition": {"calories": 400, "protein": 12, "carbs": 70, "fat": 12}
+  },
+  {
+    "id": 2,
+    "name": "Chicken Stir Fry",
+    "ingredients": ["chicken breast", "soy sauce", "garlic", "broccoli", "carrot", "bell pepper", "olive oil"],
+    "steps": [
+      "Cut chicken into cubes and marinate in soy sauce and garlic.",
+      "Stir-fry chicken in olive oil until cooked.",
+      "Add vegetables and cook until tender.",
+      "Serve hot."
+    ],
+    "difficulty": "Medium",
+    "time": 25,
+    "diet": ["gluten-free"],
+    "veg_nonveg": "Non-Veg",
+    "nutrition": {"calories": 350, "protein": 30, "carbs": 20, "fat": 15}
+  },
+  {
+    "id": 3,
+    "name": "Vegetable Curry",
+    "ingredients": ["potato", "carrot", "peas", "onion", "garlic", "coconut milk", "curry powder", "oil"],
+    "steps": [
+      "Heat oil and sauté onion and garlic.",
+      "Add vegetables and curry powder.",
+      "Pour coconut milk and simmer until vegetables are tender.",
+      "Serve with rice."
+    ],
+    "difficulty": "Medium",
+    "time": 30,
+    "diet": ["vegan", "gluten-free"],
+    "veg_nonveg": "Veg",
+    "nutrition": {"calories": 300, "protein": 8, "carbs": 45, "fat": 10}
+  },
+  {
+    "id": 4,
+    "name": "Pancakes",
+    "ingredients": ["flour", "milk", "egg", "sugar", "baking powder", "butter"],
+    "steps": [
+      "Mix flour, sugar, and baking powder.",
+      "Whisk in milk and egg.",
+      "Cook on a hot pan with butter until golden.",
+      "Serve with syrup."
+    ],
+    "difficulty": "Easy",
+    "time": 20,
+    "diet": ["vegetarian"],
+    "veg_nonveg": "Veg",
+    "nutrition": {"calories": 350, "protein": 10, "carbs": 50, "fat": 12}
+  },
+  {
+    "id": 5,
+    "name": "Grilled Salmon",
+    "ingredients": ["salmon fillet", "lemon", "olive oil", "garlic", "salt", "pepper"],
+    "steps": [
+      "Marinate salmon with olive oil, lemon, garlic, salt, and pepper.",
+      "Grill salmon until cooked through.",
+      "Serve hot with vegetables."
+    ],
+    "difficulty": "Medium",
+    "time": 25,
+    "diet": ["pescatarian", "gluten-free"],
+    "veg_nonveg": "Non-Veg",
+    "nutrition": {"calories": 400, "protein": 35, "carbs": 0, "fat": 25}
+  },
+  {
+    "id": 6,
+    "name": "Caesar Salad",
+    "ingredients": ["romaine lettuce", "croutons", "parmesan cheese", "caesar dressing", "chicken breast"],
+    "steps": [
+      "Grill chicken and slice.",
+      "Toss lettuce with dressing, croutons, and parmesan.",
+      "Top with sliced chicken and serve."
+    ],
+    "difficulty": "Easy",
+    "time": 15,
+    "diet": ["gluten-free optional"],
+    "veg_nonveg": "Non-Veg",
+    "nutrition": {"calories": 350, "protein": 25, "carbs": 20, "fat": 18}
+  },
+  {
+    "id": 7,
+    "name": "Tomato Soup",
+    "ingredients": ["tomatoes", "onion", "garlic", "vegetable broth", "olive oil", "salt", "pepper"],
+    "steps": [
+      "Sauté onion and garlic in olive oil.",
+      "Add chopped tomatoes and broth.",
+      "Simmer and blend until smooth.",
+      "Serve hot."
+    ],
+    "difficulty": "Easy",
+    "time": 25,
+    "diet": ["vegan", "gluten-free"],
+    "veg_nonveg": "Veg",
+    "nutrition": {"calories": 150, "protein": 3, "carbs": 25, "fat": 5}
+  },
+  {
+    "id": 8,
+    "name": "Beef Tacos",
+    "ingredients": ["ground beef", "taco shells", "lettuce", "cheddar cheese", "tomato", "onion", "salsa"],
+    "steps": [
+      "Cook ground beef with spices.",
+      "Fill taco shells with beef, lettuce, tomato, onion, and cheese.",
+      "Top with salsa and serve."
+    ],
+    "difficulty": "Medium",
+    "time": 20,
+    "diet": [],
+    "veg_nonveg": "Non-Veg",
+    "nutrition": {"calories": 450, "protein": 25, "carbs": 30, "fat": 25}
+  },
+  {
+    "id": 9,
+    "name": "Veggie Stir Fry",
+    "ingredients": ["broccoli", "carrot", "bell pepper", "soy sauce", "garlic", "ginger", "olive oil"],
+    "steps": [
+      "Heat olive oil and sauté garlic and ginger.",
+      "Add vegetables and stir-fry with soy sauce.",
+      "Serve hot with rice or noodles."
+    ],
+    "difficulty": "Easy",
+    "time": 15,
+    "diet": ["vegan"],
+    "veg_nonveg": "Veg",
+    "nutrition": {"calories": 200, "protein": 5, "carbs": 30, "fat": 8}
+  },
+  {
+    "id": 10,
+    "name": "Omelette",
+    "ingredients": ["egg", "milk", "salt", "pepper", "cheese", "spinach", "tomato"],
+    "steps": [
+      "Whisk eggs with milk, salt, and pepper.",
+      "Cook in a pan and add cheese, spinach, and tomato.",
+      "Fold and serve hot."
+    ],
+    "difficulty": "Easy",
+    "time": 10,
+    "diet": ["vegetarian", "gluten-free"],
+    "veg_nonveg": "Veg",
+    "nutrition": {"calories": 250, "protein": 15, "carbs": 5, "fat": 18}
+  }
+]
